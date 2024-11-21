@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Reservation Form</title>
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+
+    <h1 style="font-weight: bold;">Travel Reservation Form</h1>
+    <br>
+    <h3 style="font-weight: bold;">* denotes mandatory</h3>
+    <br>
+    <h5>Full name*:</h5>
+    <input type="name" placeholder="FirstName Last Name" required />
+    <h5>Email address*:</h5>
+    <input type="email" placeholder="EMAIL_ADDRESS" required />
+    <h5>Select Tour Package*:</h5>
+    <select default="Goa" required>
+      <option>Goa</option>
+      <option>Cox's Bazar</option>
+      <option>Sajek</option>
+    </select>
+
+    <h5>Arrival Date*:</h5>
+    <input type="date" required />
+
+    <h5>Number of persons*:</h5>
+    <input type="number" placeholder="Number of Persons" required />
+
+
+    <h5>What would you want to avail?*:</h5>
+
+    <label for="option1">Boarding</label>
+    <input type="checkbox" id="option1" name="options" value="Option1" />
+    <br>
+    <label for="option2">Fooding</label>
+    <input type="checkbox" id="option2" name="options" value="Option2" />
+    <br>
+    <label for="option3">Sight seeing</label>
+    <input type="checkbox" id="option3" name="options" value="Option3" />
+
+    <h5>Discount Cupon code:</h5>
+    <input type="name" placeholder="Discount Cupon" />
+
+    <h5>Terms and conditions*:</h5>
+    <span style="display: flex;">
+      <input type="radio" id="iAgree" name="tnc" value="I agree">
+      <label for="iAgree">I agree</label>
+      <br>
+
+      <input type="radio" id="iDisagree" name="tnc" value="I disagree">
+      <label for="iDisagree">I disagree</label><br>
+    </span>
+
+    <input type="submit" value="Complete reservation" />
+
+  </form>
+
+</body>
+
+</html>
