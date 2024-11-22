@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: "Noto Sans", sans-serif;
 }
 
 h1,
@@ -30,7 +31,7 @@ h6 {
     width: 100vw;
     margin: 0;
     justify-content: center;
-    z-index: 100;
+    z-index: 200;
 }
 
 .navcontainer ul {
@@ -43,6 +44,8 @@ h6 {
     justify-content: space-between;
     border-radius: 20px;
     cursor: pointer;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 
 

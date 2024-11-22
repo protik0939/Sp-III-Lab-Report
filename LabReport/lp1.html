@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Reservation Form</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
     h1,
     h2,
     h3,
@@ -15,8 +18,10 @@
       margin: 0px;
     }
   </style>
+
 </head>
-<body>
+
+<body style="font-family: 'Noto Sans', sans-serif;">
   <form>
 
     <h1 style="font-weight: bold;">Travel Reservation Form</h1>
@@ -24,21 +29,21 @@
     <h3 style="font-weight: bold;">* denotes mandatory</h3>
     <br>
     <h5>Full name*:</h5>
-    <input type="name" placeholder="FirstName Last Name" required />
+    <input type="name" placeholder="FirstName Last Name" required /><br>
     <h5>Email address*:</h5>
-    <input type="email" placeholder="EMAIL_ADDRESS" required />
+    <input type="email" placeholder="EMAIL_ADDRESS" required /><br>
     <h5>Select Tour Package*:</h5>
     <select default="Goa" required>
       <option>Goa</option>
       <option>Cox's Bazar</option>
       <option>Sajek</option>
-    </select>
+    </select><br>
 
     <h5>Arrival Date*:</h5>
-    <input type="date" required />
+    <input type="date" required /><br>
 
     <h5>Number of persons*:</h5>
-    <input type="number" placeholder="Number of Persons" required />
+    <input type="number" placeholder="Number of Persons" required /><br>
 
 
     <h5>What would you want to avail?*:</h5>
@@ -50,10 +55,10 @@
     <input type="checkbox" id="option2" name="options" value="Option2" />
     <br>
     <label for="option3">Sight seeing</label>
-    <input type="checkbox" id="option3" name="options" value="Option3" />
+    <input type="checkbox" id="option3" name="options" value="Option3" /><br>
 
     <h5>Discount Cupon code:</h5>
-    <input type="name" placeholder="Discount Cupon" />
+    <input type="name" placeholder="Discount Cupon" /><br>
 
     <h5>Terms and conditions*:</h5>
     <span style="display: flex;">
@@ -63,9 +68,9 @@
 
       <input type="radio" id="iDisagree" name="tnc" value="I disagree">
       <label for="iDisagree">I disagree</label><br>
-    </span>
+    </span><br>
 
-    <input type="submit" value="Complete reservation" />
+    <input style="font-family: 'Noto Sans', sans-serif;" type="submit" value="Complete reservation" />
 
   </form>
 

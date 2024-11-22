@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
@@ -79,7 +82,7 @@ h1 {
     background-color: #428bca;
     justify-content: center;
     align-items: center;
-    padding: 7.5px;
+    padding: 9px;
     border-radius: 0px 8px 8px 0px;
     cursor: pointer;
 }
@@ -94,6 +97,7 @@ h1 {
     border-radius: 5px;
     right: 0px;
     color: black;
+    font-size: 15px;
 }
 
 .dropdown-menu li {
@@ -105,13 +109,14 @@ h1 {
     align-items: center;
     cursor: pointer;
 }
+
 .dropdown-menu li:hover {
     background-color: #3276b1;
     color: #ffffff;
     border-radius: 5px;
 }
 
-.dropdown-menu ion-icon{
+.dropdown-menu ion-icon {
     margin-right: 10px;
 }
 
